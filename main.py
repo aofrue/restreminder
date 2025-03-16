@@ -7,7 +7,6 @@ from PyQt5.QtWidgets import (
 from PyQt5.QtCore import QTimer, Qt, pyqtSignal
 from PyQt5.QtGui import QCursor
 
-
 class CountdownApp(QMainWindow):
     def __init__(self):
         super().__init__()
